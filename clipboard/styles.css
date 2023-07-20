@@ -21,7 +21,8 @@ body{
 
 .heading{
     color: var(--dark-grayish-blue);
-    line-height: 4.5rem;
+    font-weight: 600;
+    
 }
 
 .text{
@@ -34,30 +35,61 @@ body{
 main{
     margin: 0 auto;
     width: 750px;
+    position: relative;
     
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.btns{
+    display: flex;
+    gap: 1rem;
+}
+
+.btn{
+    padding: 10px 20px;
+    background-color: var(--strong-cyan);
+    border-radius: 25px;
+    text-align: center;
+}
+
+.btn-one{
+    background-color: var(--strong-cyan);
+}
+.btn-two{
+    background-color: var(--light-blue);
 }
     
 .header-section{
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
     
 }
 
 
 /* first section */
 
-.first{
+.main-section{
    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-bottom: 1.5rem;
+    margin-bottom: 4rem;
     
 }
 
 .heading-one{
     font-size: 2.5rem;
+    line-height: 4.5rem;
+    
 }
 
 .intro-section{
@@ -66,6 +98,15 @@ main{
     justify-content: center;  
     align-items: center;
     margin-bottom: 1.5rem;
+}
+
+
+/* second section*/
+
+
+.content-section{
+    display: flex;
+    gap: 2rem;
 }
 
 
